@@ -1,7 +1,7 @@
 import numpy as np
 import ot
 from src.core.compute_OR_SG_LOT import (
-    compute_OR_SG_LOT,
+    compute_OR_SG_LOT
 )
 from src.core.compute_OR_SG_EROT import (
     compute_OR_SG_EROT
