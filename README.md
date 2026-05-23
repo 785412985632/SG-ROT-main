@@ -94,7 +94,7 @@ The placeholders `{group_type}`, `{ordering_type}`, `{orbit_num}`, `{group_order
 
 - **`{orbit_num}`** – Number of group orbits. Defaults: `'Z': [1600]`, `'D': [800, 5]`, `'T': [400]`, `'O': [200]`, `'I': [80]`. Modifiable in script.
 
-- **`{group_order}`** – Group order (size). Constraints: `'Z'`: any integer; `'D'`: any even integer; `'T'`: 12; `'O'`: 24; `'I'`: 60.
+- **`{group_order}`** – Group order. Constraints: `'Z'`: any integer; `'D'`: any even integer; `'T'`: 12; `'O'`: 24; `'I'`: 60.
 
 - **`{method}`** – Optimal transport solver. For `'block'`: `C_LOT, SG_LOT, LOT, C_EROT, SG_EROT, EROT`. For `'random'`: `SG_LOT, LOT, SG_EROT, EROT`.
 
